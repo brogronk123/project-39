@@ -44,7 +44,7 @@ function draw(){
         text("Control - Controls",windowWidth/2-500,windowHeight/2);
     }
     if(gameState === "waiting"){
-        text("Click space bar to start!",windowWidth/2,windowHeight/2);
+        text("Click control for the controls to start!",windowWidth/2,windowHeight/2);
         if(keyDown("Space")){
             gameState = "play";
         }
