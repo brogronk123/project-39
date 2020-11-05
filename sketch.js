@@ -12,7 +12,7 @@ var backgroundImage;
 var batImage;
 function preload(){
     batImage = loadImage("bat.png");
-    backgroundImage = loadImage("backgroundImage.png");
+    backgroundImage = loadImage("backgroundImage.jpg");
 }
 function setup(){
     createCanvas(windowWidth,windowHeight);
